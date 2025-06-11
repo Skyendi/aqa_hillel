@@ -54,4 +54,5 @@ class PostgresDB:
 db_client = PostgresDB()
 
 result = db_client.query(f"SELECT * FROM products")
+
 pprint.pprint(result)
